@@ -24,9 +24,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"]
           },
           "configurations": {
             "production": {
@@ -88,9 +91,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"]
           }
         },
         "lint": {
@@ -119,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Personal-Portfolio"
+    }
+  },
+  "defaultProject": "Personal-Portfolio",
+  "cli": {
+    "analytics": "103e2b11-5407-4956-b32a-609c1db57c60"
+  }
 }
