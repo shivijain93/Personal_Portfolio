@@ -83,9 +83,10 @@ body{
 
 .wrapper .main_content{
   width: 100%;
-  margin-left: 100px;
-  margin-top: 200px;
-  margin-bottom: 250px;
+  margin-left: 50px;
+  margin-top: 170px;
+  
+  
   
 }
 
@@ -97,6 +98,8 @@ body{
   margin-left: auto;
     margin-right: auto;
 }
+
+
 
 /*.wrapper .main_content .info{
   margin: 20px;

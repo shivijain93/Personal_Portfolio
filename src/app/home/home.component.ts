@@ -12,4 +12,5 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+   url = "../../assets/Images/shivi.png.png"
 }
